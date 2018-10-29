@@ -9,6 +9,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
+        comparar(a,b);
+    }
+
+    /*
+    La función main sirve para crear la variable scanner e inicializar los valores a y b.
+     */
+
+    private static void comparar(int a, int b) {
         if(a==b){
             System.out.println("Los números introducidos son iguales");
         }else{
@@ -19,4 +27,8 @@ public class Main {
             }
         }
     }
+
+    /*
+    Esta función compara las varibles usadas y saca por pantalla si son iguales o no y cuál es la menor de ambas.
+     */
 }
