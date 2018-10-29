@@ -29,6 +29,6 @@ public class Main {
     }
 
     /*
-    Esta función compara las varibles usadas y saca por pantalla si son iguales o no y cuál es la menor de ambas.
+    Esta función compara las varibles usadas y saca por pantalla si las variables son iguales o no y cuál es la menor de ambas.
      */
 }
